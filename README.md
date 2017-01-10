@@ -7,7 +7,6 @@ Learn more about the [Home-assistant platform](https://home-assistant.io/)
 
 See below:
  * Sensibo Smart Thermostat compoennts
- * Pushover-Glances for displaying information on Apple Watch for example
 
 ## Sensibo
 
@@ -24,17 +23,6 @@ For my smart thermostat [Sensibo](https://www.sensibo.com/) I created 3 differen
 ![Weather-Dashboard-Sensibo-On-Home-Assistant](/images/Weather-Dashboard-Sensibo-On-Home-Assistant.png?raw=true "Home Assistant Dashboard Sample For Sensibo Components")
 
 ![Climate-Options-Sensibo-On-HomeAssistant](/images/Climate-Options-Sensibo-On-HomeAssistant.png?raw=true "Climate Components Card For Sensibo")
-
-## Pushover - Glances
-While Home-Assistant already had a [notification platform implementation for pushover](https://home-assistant.io/components/notify.pushover/), at present it's only for sending push notifications...
-
-My implementation of the ["Glances" A](https://pushover.net/api/glances) allows you to send information directly to Apple Watch face (not as push). 
-
-* **Notify** - (``pushoverglances``) will let you connect the service and set it up so you can send *count numeric messages* to the little info placeholder and  *short text messages* to the the larger placeholder
-
-**You will want to get [The Pushover App](https://itunes.apple.com/us/app/pushover-notifications/id506088175?mt=8&at=1010l3fx) from the Apple app store if you haven't already...**
-
-![Apple-Watch-Example](/images/apple-watch-with-pushover-glances.PNG?raw=true "Apple Watch with Home-Assistant Data via Pushover Glances")
 
 # If you want to go into Home-Assistant and are missing a Raspberry Pi
 
